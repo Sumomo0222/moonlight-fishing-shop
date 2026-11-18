@@ -4,6 +4,12 @@
 
 所有画面元素（小铺、湖面、月亮、鱼竿、浮漂、收获物）均使用 HTML / CSS / SVG 手绘，**无任何外部图片素材、无框架、无构建步骤**。
 
+## 在线体验
+
+- **GitHub Pages（入口链接）**：https://sumomo0222.github.io/moonlight-fishing-shop/
+- jsDelivr CDN：CSS/JS 资源可用（`https://cdn.jsdelivr.net/gh/Sumomo0222/moonlight-fishing-shop@main/dist/style.css`）；但对 `.html` 会以 `text/plain` 返回，浏览器直接显示源码，不适合作为入口。
+- Pages 部署已由仓库内 `.github/workflows/deploy.yml` 自动完成（推送 `dist/` 即发布）。
+
 ## 它是什么
 
 - 一个单页轻量互动小 游戏 / 氛围玩具，玩法约 10 秒一轮：抛竿 → 等待 → 浮漂晃动 → 收线 → 收获卡片。
