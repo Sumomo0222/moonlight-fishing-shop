@@ -51,8 +51,7 @@ body {
 }
 @keyframes twinkle { from { opacity: .15; } to { opacity: .95; } }
 
-.shoot { position: absolute; inset: 0; pointer-events: none; }
-.shoot .shoot, .shoot > .shoot { display: none; }
+.shooting { position: absolute; inset: 0; pointer-events: none; }
 span.shoot {
   position: absolute;
   width: var(--len, 100px);
